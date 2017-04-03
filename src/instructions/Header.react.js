@@ -19,7 +19,7 @@ export default class Header extends Component {
               </object>
               <h1 className="project-name">CityBook</h1>
               <h2 className="project-tagline">Create a contact list from a Google Spreadsheet.</h2>
-              <a href="#/books/6e45a6e5-d6b5-4b71-a6d8-16138f9b4ad2" target="_blank" className="btn btn-header btn-lg btn-block">Citybook Demo <Glyphicon glyph='new-window' /></a>
+              <a href="#/books/2a75006d-59c5-492c-ab2f-c44d79824cc5" target="_blank" className="btn btn-header btn-lg btn-block">Citybook Demo <Glyphicon glyph='new-window' /></a>
               <ScrollLink
                 to="instructions-start"
                 smooth={true}
@@ -31,7 +31,7 @@ export default class Header extends Component {
               <Col sm={6} smOffset={3}>
                 <span className='demo-phone-camera'></span>
                 <span className='demo-phone-speaker'></span>
-                <iframe className='demo-iframe' src="https://www.citybook.io/#/books/6e45a6e5-d6b5-4b71-a6d8-16138f9b4ad2" width="100%" height="550px" frameBorder="0"></iframe>
+                <iframe className='demo-iframe' src="https://www.safe-reaches-21228.herokuapp.com/#/books/2a75006d-59c5-492c-ab2f-c44d79824cc5" width="100%" height="550px" frameBorder="0"></iframe>
                 <span className='demo-iframe-bottom-line'></span>
               </Col>
             </Col>

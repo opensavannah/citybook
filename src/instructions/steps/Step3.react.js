@@ -113,7 +113,7 @@ export default class Step3 extends Component {
         citybookEmbed;
     } else {
       var
-        citybookLink = 'https://www.citybook.io/#/books/' + this.state.uuid,
+        citybookLink = 'https://safe-reaches-21228.herokuapp.com/#/books/' + this.state.uuid,
         citybookEmbed = '<iframe src="' + citybookLink + '" width="100%" height="800px" frameboarder="0"></iframe>'
     }
     var linkStatus;

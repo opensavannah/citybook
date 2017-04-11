@@ -17,7 +17,7 @@ export default class Header extends Component {
               <object type="image/svg+xml" className="img-responsive main-logo" data="../../img/CityBookLogo.svg">
                 <img src="../../img/CityBookLogo.png" alt="CityBook Logo" />
               </object>
-              <h1 className="project-name">CityBook</h1>
+              <h1 className="project-name">SavBook</h1>
               <h2 className="project-tagline">Create a contact list from a Google Spreadsheet.</h2>
               <a href="#/books/c48d038a-f724-4745-a428-fa950ca06c4f" target="_blank" className="btn btn-header btn-lg btn-block">Citybook Demo <Glyphicon glyph='new-window' /></a>
               <ScrollLink

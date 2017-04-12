@@ -31,7 +31,7 @@ export default class Header extends Component {
               <Col sm={6} smOffset={3}>
                 <span className='demo-phone-camera'></span>
                 <span className='demo-phone-speaker'></span>
-                <iframe className='demo-iframe' src="https://www.safe-reaches-21228.herokuapp.com/#/books/c48d038a-f724-4745-a428-fa950ca06c4f" width="100%" height="550px" frameBorder="0"></iframe>
+                <iframe className='demo-iframe' src="https://www.safe-reaches-21228.herokuapp.com/#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" width="100%" height="550px" frameBorder="0"></iframe>
                 <span className='demo-iframe-bottom-line'></span>
               </Col>
             </Col>

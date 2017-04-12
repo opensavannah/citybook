@@ -13,25 +13,27 @@ export default class Header extends Component {
       <section className="page-header">
         <div className="container">
           <Row>
+            <Col xs={12}>
+              <div className="organization-name">
+                <h3>An <a href="http://opensavannah.org/" className="org-name">Open Savannah</a> Project</h3>
+              </div>
+            </Col>
+          </Row>
+          <Row>
             <Col xs={12} sm={3}>
               <object type="image/svg+xml" className="img-responsive main-logo" data="../../img/CityBookLogo.svg">
                 <img src="../../img/CityBookLogo.png" alt="CityBook Logo" />
               </object>
               <h1 className="project-name">SavBook</h1>
-              <h2 className="project-tagline">Create a contact list from a Google Spreadsheet.</h2>
-              <a href="#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" target="_blank" className="btn btn-header btn-lg btn-block">Open SavBook<Glyphicon glyph='new-window' /></a>
-              <ScrollLink
-                to="instructions-start"
-                smooth={true}
-                duration={500}
-                id="get-started-button"
-                className="btn btn-header btn-lg btn-block">Make a SavBook <Glyphicon glyph='flash' /></ScrollLink>
+              <h2 className="project-tagline">SavBook is a mobile web app that serves as your one-stop-shop for locating and making actual contact with resources and community contacts for your Savannah neighborhood.</h2>
+              <a href="#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" target="_blank" className="btn btn-lg btn-block btn-blue">Open SavBook <Glyphicon glyph='new-window'/></a>
+              <a href="http://opensavannah.org/blog/post/Getting-Started" className="btn btn-lg btn-block btn-blue">Contribute to SavBook <Glyphicon glyph='heart' /></a>
             </Col>
             <Col xsHidden smHidden sm={8} smOffset={1} className="iframe-container">
               <Col sm={6} smOffset={3}>
                 <span className='demo-phone-camera'></span>
                 <span className='demo-phone-speaker'></span>
-                <iframe className='demo-iframe' src="https://www.safe-reaches-21228.herokuapp.com/#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" width="100%" height="550px" frameBorder="0"></iframe>
+                <iframe className='demo-iframe' src="#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" width="100%" height="550px" frameBorder="0"></iframe>
                 <span className='demo-iframe-bottom-line'></span>
               </Col>
             </Col>

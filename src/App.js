@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory } from 'react-router';
 import TopNav from './navigation/topNav.react.js';
 import ErrorBar from './ErrorBar.react.js';
+import Footer from './instructions/Footer.react.js';
 import getSpreadsheetData from './scripts/getSpreadsheetData.js';
 import ResultListWrapper from './results/ResultListWrapper.react.js';
 import fuzzy from 'fuzzy';
-import Sidebar from 'react-sidebar';
-import SidebarContent from './navigation/SidebarContent.react.js';
 
 
 export default class App extends Component {
@@ -14,7 +13,6 @@ export default class App extends Component {
     super();
     this.state = {
       initialLoadComplete: false,
-      sidebarOpen: false,
       errors: '',
       filterOptions: '',
       sheetName: '',
@@ -28,7 +26,6 @@ export default class App extends Component {
     this.setFilters = this.setFilters.bind(this);
     this.setSearchInput = this.setSearchInput.bind(this);
     this.componentWillMount = this.componentWillMount.bind(this);
-    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
   }
 
   updateState(loadState, sheetName, filterOptions, results, error){
@@ -99,10 +96,6 @@ export default class App extends Component {
     }
   }
 
-  onSetSidebarOpen(){
-    console.log('opening');
-    this.setState({sidebarOpen: !this.state.sidebarOpen});
-  }
 
   render() {
     let errors;
@@ -160,28 +153,21 @@ export default class App extends Component {
     }
 
     return (
-      <Sidebar
-              sidebar={<SidebarContent spreadsheetId={this.state.spreadsheetId} sidebarToggle={this.onSetSidebarOpen} />}
-              open={this.state.sidebarOpen}
-              onSetOpen={this.onSetSidebarOpen}
-              pullRight={true}
-              styles={styles}>
+      <div>
         <TopNav
           loaded={this.state.initialLoadComplete}
           spreadsheetId={this.state.spreadsheetId}
           results={this.state.filteredResults}
-          setSearchInput={this.setSearchInput}
-          sidebarToggle={this.onSetSidebarOpen}/>
-
+          setSearchInput={this.setSearchInput}/>
         <ErrorBar errors={this.state.errors} />
-
         <ResultListWrapper
           loaded={this.state.initialLoadComplete}
           errors={this.state.errors}
           filterOptions={this.state.filterOptions}
           setFilters={this.setFilters}
           results={this.state.filteredResults} />
-      </Sidebar>
+        <Footer />
+      </div>
     );
   }
 }

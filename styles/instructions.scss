@@ -1,24 +1,44 @@
 $large-break: 64em;
 $medium-break: 42em;
 
+.org-name {
+  color: #000;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.org-name:hover {
+  color: #004bfc;
+}
+
 .btn-blue {
-  background-color: #4776E6;
+  background-color: #004bfc;
   color: white;
-  border-color: #4776E6;
+  border-color: #004bfc;
   box-shadow: 0 2px 0 0 rgba(0,0,0,.1);
   &:hover {
-    background-color: rgba(21,87,153, 0.9);
+    background-color: rgba(0,75,252, 0.8);
     color: white;
-    border-color: rgba(21,87,153, 1);
+    border-color: rgba(0,75,252, 1);
   }
 }
 
 .page-header {
 
-  color: #fff;
+  color: #000;
   margin: 0;
-  background-color: #4776E6;
-  background-image: linear-gradient(120deg, #4776E6, #8E54E9);
+  background-color: #FCB100;
+  border-bottom: none;
+
+  .organization-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
 
   .main-logo {
     max-width: 180px;
@@ -26,17 +46,17 @@ $medium-break: 42em;
 
   @media screen and (min-width: 64em) {
     padding: 8rem 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
 
   @media screen and (min-width: $medium-break) and (max-width: $large-break) {
     padding: 7rem 0rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   @media screen and (max-width: $medium-break) {
     padding: 2rem 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
   }
 
   .project-name {
@@ -59,13 +79,13 @@ $medium-break: 42em;
     font-weight: normal;
     opacity: 0.7;
       @media screen and (min-width: $large-break) {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
       }
       @media screen and (min-width: $medium-break) and (max-width: $large-break) {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       @media screen and (max-width: $medium-break) {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     }
 
@@ -180,5 +200,22 @@ $medium-break: 42em;
   .input-group {
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+}
+
+.page-footer {
+  background-color: #e29f00;
+
+  .footer-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer-link {
+    color: #000;
+    text-decoration: underline;
+  }
+  .footer-link:hover {
+    color: #004bfc;
   }
 }

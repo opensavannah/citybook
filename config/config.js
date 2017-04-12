@@ -4,7 +4,7 @@ if(process.env.DATABASE_URL){
 
 module.exports = {
   'development': {
-    'database': 'citybook',
+    'database': 'savbook',
     'host': '127.0.0.1',
     'dialect': 'postgres'
   },

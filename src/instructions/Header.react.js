@@ -25,7 +25,7 @@ export default class Header extends Component {
                 smooth={true}
                 duration={500}
                 id="get-started-button"
-                className="btn btn-header btn-lg btn-block">Make a CityBook <Glyphicon glyph='flash' /></ScrollLink>
+                className="btn btn-header btn-lg btn-block">Make a SavBook <Glyphicon glyph='flash' /></ScrollLink>
             </Col>
             <Col xsHidden smHidden sm={8} smOffset={1} className="iframe-container">
               <Col sm={6} smOffset={3}>

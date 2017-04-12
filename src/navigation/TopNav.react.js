@@ -27,7 +27,7 @@ export default class TopNav extends Component {
       <Navbar className="citybook-header affix">
         <Navbar.Header className="hidden-sm hidden-xs">
           <Navbar.Brand>
-            <a href="/">CityBook</a>
+            <a href="/">SavBook</a>
           </Navbar.Brand>
         <Navbar.Toggle />
         </Navbar.Header>

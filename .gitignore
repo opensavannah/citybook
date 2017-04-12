@@ -4,3 +4,5 @@ _site
 npm-debug.log
 *.pem
 *.key
+bundle.js
+bundle.js.map

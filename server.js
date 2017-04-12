@@ -25,7 +25,7 @@ if(process.argv[2] === '--dev'){
     historyApiFallback: true,
     proxy: {
       '/api*': {
-        target: 'https://safe-reaches-21228.herokuapp.com',
+        target: 'http://localhost:8080/',
         secure: false
       }
     }
@@ -33,7 +33,7 @@ if(process.argv[2] === '--dev'){
     if (err) {
       return console.log(err);
     }
-    console.log('Webpack Dev Server Listening at https://safe-reaches-21228.herokuapp.com');
+    console.log('Webpack Dev Server Listening at http://localhost:3000');
   });
 
 }

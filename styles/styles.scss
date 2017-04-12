@@ -204,10 +204,13 @@ $breakpoints: (
 
 .citybook-header {
   .navbar-brand {
-    color: #fff;
+    color: #000;
+  }
+  .navbar-brand:hover {
+    color: #004bfc;
   }
   .navbar-nav>li>a {
-    color: #fff;
+    color: #000;
   }
   background-color: #FCB100;
   width: 100%;

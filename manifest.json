@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "short_name": "CityBook",
-  "name": "CityBook",
+  "short_name": "SavBook",
+  "name": "SavBook",
   "default_locale": "en",
-  "theme_color": "#4776E6",
+  "theme_color": "#FFC400",
   "icons": [
     {
       "src": "img/launcher-icon-2x.png",

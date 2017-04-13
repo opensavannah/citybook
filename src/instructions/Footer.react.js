@@ -12,7 +12,7 @@ export default class Footer extends Component {
         <div className="container">
           <Row>
             <Col xs={12}>
-              <p className="footer-text"><Glyphicon glyph="copyright-mark" /> 2017 - <a href="http://opensavannah.org/" className="footer-link">Open Savannah</a>, a <a href="https://www.codeforamerica.org/join-us/volunteer-with-us" className="footer-link">Code for America Brigade</a>. Built by these awesome contributors.</p>
+              <p className="footer-text"><Glyphicon glyph="copyright-mark" /> 2017 - <a href="http://opensavannah.org/" className="footer-link">Open Savannah</a>, a <a href="https://www.codeforamerica.org/join-us/volunteer-with-us" className="footer-link">Code for America Brigade</a>. Built by <span className="footer-link">these awesome contributors</span>.</p>
             </Col>
           </Row>
         </div>

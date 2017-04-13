@@ -12,14 +12,14 @@ $medium-break: 42em;
 }
 
 .btn-blue {
-  background-color: #000!important;
+  background-color: #000;
   color: white;
   border-color: #000;
   box-shadow: 0 2px 0 0 rgba(0,0,0,.1);
   &:hover {
-    background-color: rgba(0,75,252, 0.8);
+    background-color: rgba(0,0,0, 0.8);
     color: white;
-    border-color: rgba(0,75,252, 1);
+    border-color: rgba(0,0,0, 1);
   }
 }
 
@@ -44,7 +44,7 @@ $medium-break: 42em;
     align-items: center;
     justify-content: center;
   }
-  
+
   .main-logo {
     max-width: 180px;
   }
@@ -220,6 +220,7 @@ $medium-break: 42em;
   .footer-link {
     color: #000;
     text-decoration: underline;
+    cursor: pointer;
   }
   .footer-link:hover {
     color: #004bfc;

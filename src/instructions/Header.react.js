@@ -21,9 +21,11 @@ export default class Header extends Component {
           </Row>
           <Row>
             <Col xs={12} sm={3}>
-              <object type="image/svg+xml" className="img-responsive main-logo" data="../../img/CityBookLogo.svg">
-                <img src="../../img/CityBookLogo.png" alt="CityBook Logo" />
-              </object>
+              <div className="center-logo">
+                <object type="image/svg+xml" className="img-responsive main-logo" data="../../img/CityBookLogo.svg">
+                  <img src="../../img/CityBookLogo.png" alt="CityBook Logo" />
+                </object>
+              </div>
               <h1 className="project-name">SavBook</h1>
               <h2 className="project-tagline">SavBook is a mobile web app that serves as your one-stop-shop for locating and making actual contact with resources and community contacts for your Savannah neighborhood.</h2>
               <a href="#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" target="_blank" className="btn btn-lg btn-block btn-blue">Open SavBook <Glyphicon glyph='new-window'/></a>

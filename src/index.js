@@ -7,7 +7,7 @@ import BookList from './BookList.react.js';
 import App from './App';
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-79927051-1');
+ReactGA.initialize('UA-97640185-1');
 
 
 import '../styles/styles.scss';

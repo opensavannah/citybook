@@ -1,14 +1,12 @@
-# CityBook
+# SavBook
 
-[![Join the chat at https://gitter.im/codeforamerica/citybook](https://badges.gitter.im/codeforamerica/citybook.svg)](https://gitter.im/codeforamerica/citybook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/codeforamerica/citybook.png)](https://travis-ci.org/codeforamerica/citybook)  [![Stories in Ready](https://badge.waffle.io/codeforamerica/citybook.png?label=ready&title=Ready)](https://waffle.io/codeforamerica/citybook)
 
-Make a searchable address book from a contact spreadsheet.
-http://codeforamerica.github.io/citybook
+A hybrid mobile-web app of community contacts built using react.js, tabletop.js and powered by Google Sheets.
+https://savbook.io
 
-CityBook aims to make it easier for administrative staff who maintain contact lists to create a searchable, mobile-responsive web app that uses their spreadsheet as a data source.
+SavBook aims to serve as a one-stop resource for social service data and resources in Greater Savannah.
 
-Based on the CfA [2015 Richmond Fellowship team's](http://rva.codeforamerica.org) [Search-RVAHealth project](https://github.com/codeforamerica/search-rvahealth).
 
 ## Data Types
 

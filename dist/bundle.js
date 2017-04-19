@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "42c3cb61c29e41f0b962"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "79c558d59b821ba41597"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -36324,7 +36324,7 @@
 	              ),
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'http://opensavannah.org/blog/post/Getting-Started', className: 'btn btn-lg btn-block btn-blue' },
+	                { href: 'http://forum.opensavannah.org/t/wiki-making-ongoing-contributions-to-savbook/112/', className: 'btn btn-lg btn-block btn-blue' },
 	                'Contribute to SavBook ',
 	                _react2.default.createElement(_Glyphicon2.default, { glyph: 'heart' })
 	              )

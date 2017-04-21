@@ -7,6 +7,13 @@ https://savbook.io
 
 SavBook aims to serve as a one-stop resource for social service data and resources in Greater Savannah.
 
+---
+
+## Project Lead: Luke Golden
+## Project Maintainers: Carl V. Lewis, Rob Lingle
+#### Other contributors listed here.
+
+---
 
 ## Data Types
 

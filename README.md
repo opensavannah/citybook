@@ -5,12 +5,13 @@
 A hybrid mobile-web app of community contacts built using react.js, tabletop.js and powered by Google Sheets.
 https://savbook.io
 
-SavBook aims to serve as a one-stop resource for social service data and resources in Greater Savannah.
+SavBook aims to serve as a one-stop resource for social service data and resources in Greater Savannah, working toward what Greg Bloom has called an ["Open Data Approach to the Human Service Directory Problem"](https://www.academia.edu/16449530/An_Open_Data_Approach_to_the_Human_Service_Directory_Problem) (2015).
 
 ---
 
-## Project Lead: Luke Golden
-## Project Maintainers: Carl V. Lewis, Rob Lingle
+### Project Lead: Luke Golden
+### Project Maintainers: Carl V. Lewis, Rob Lingle
+### Community Partner: [Coastal Georgia Indicators Coalition](http://coastalgaindicators.org).
 #### Other contributors listed here.
 
 ---

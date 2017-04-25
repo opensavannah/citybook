@@ -16,6 +16,21 @@ export default class Footer extends Component {
     this.close = this.close.bind(this);
   }
 
+  // componentDidMount() {
+  //   let listOfContributors = ['Chelsey Beck', 'Brendan Hegarty', 'Patricia Metheuse Stewart'];
+  //   console.log('listOfContributors: ' + listOfContributors)
+  //   listOfContributors.forEach((person) => {
+  //     console.log('person: ' + person);
+  //     let para = document.createElement('p');
+  //     console.log('para: ' + para);
+  //     let name = document.createTextNode(person);
+  //     console.log('name: ' + name);
+  //     para.appendChild(name);
+  //     console.log(para);
+  //     document.getElementById('contributor-list').appendChild(para);
+  //   });
+  // }
+
   open() {
     this.setState({
       showModal: true
@@ -43,9 +58,39 @@ export default class Footer extends Component {
             <Modal.Title>SavBook.io Contributors</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>Contributor name goes here</p>
-            <p>Contributor name goes here</p>
-            <p>Contributor name goes here</p>
+              <div id="contributor-list">
+                <p>Chelsey Beck</p>
+                <p>Brendan Hegarty</p>
+                <p>Patricia Metheuse Stewart</p>
+                <p>Adrian Oldham</p>
+                <p>Julia Muller</p>
+                <p>Zakri Kneebone</p>
+                <p>Rachel Gardner</p>
+                <p>Penny Clarke</p>
+                <p>Nick Helmholdt</p>
+                <p>Jenny McCord</p>
+                <p>Kevin Lawver</p>
+                <p>Aaron Pompei</p>
+                <p>Chris Parrish</p>
+                <p>Saja Aures</p>
+                <p>Catherine Maguire</p>
+                <p>Michael DeVane</p>
+                <p>Brian Young</p>
+                <p>Josef Siebert</p>
+                <p>Muhammad Burhan</p>
+                <p>Luanne Serieux-Lubin</p>
+                <p>Rob Lingle</p>
+                <p>Brandon Hunter</p>
+                <p>Karen Buschow</p>
+                <p>Nick Palumbo</p>
+                <p>Sarah Walters</p>
+                <p>Gary Skogilind</p>
+                <p>Cole Woodyard</p>
+                <p>CJ Beck</p>
+                <p>Amy Livingood</p>
+                <p>Carl V. Lewis</p>
+                <p>Luke Golden</p>
+              </div>
           </Modal.Body>
           <Modal.Footer>
             <Button onClick={this.close}>Close</Button>

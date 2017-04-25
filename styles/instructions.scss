@@ -95,6 +95,21 @@ $medium-break: 42em;
       }
     }
 
+  .project-status {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7;
+      @media screen and (min-width: $large-break) {
+        font-size: 2.25rem;
+      }
+      @media screen and (min-width: $medium-break) and (max-width: $large-break) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: $medium-break) {
+        font-size: 2rem;
+      }
+  }
+
   .btn.btn-header {
     display: inline-block;
     margin-bottom: 1rem;

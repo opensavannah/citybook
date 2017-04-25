@@ -29,6 +29,7 @@ export default class Header extends Component {
               <h1 className="project-name">SavBook</h1>
               <h2 className="project-tagline">SavBook is a mobile web app that serves as your one-stop-shop for locating and making actual contact with resources and community contacts for your Savannah neighborhood.</h2>
               <a href="#/books/b6eb47a2-020e-4be1-844a-6a1a2979e8c5" target="_blank" className="btn btn-lg btn-block btn-blue">Open SavBook <Glyphicon glyph='new-window'/></a>
+              <h3 className="project-status">Project Status: Beta</h3>
               <a href="http://forum.opensavannah.org/t/wiki-making-ongoing-contributions-to-savbook/112/" className="btn btn-lg btn-block btn-blue">Contribute to SavBook <Glyphicon glyph='heart' /></a>
             </Col>
             <Col xsHidden smHidden sm={8} smOffset={1} className="iframe-container">

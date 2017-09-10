@@ -9,7 +9,7 @@ SavBook aims to serve as a one-stop resource for social service data and resourc
 
 ---
 
-### Project Lead: Luke Golden
+### Project Lead: Carl V. Lewis
 ### Project Maintainers: Carl V. Lewis, Rob Lingle
 ### Community Partner: [Coastal Georgia Indicators Coalition](http://coastalgaindicators.org).
 #### Other contributors listed here.

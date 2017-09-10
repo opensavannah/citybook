@@ -22,7 +22,7 @@
     "edit",
     "webpack"
   ],
-  "author": "Code for America (http://codeforamerica.org/)",
+  "author": "Carl V. Lewis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
